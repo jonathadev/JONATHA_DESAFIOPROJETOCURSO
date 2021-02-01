@@ -5,3 +5,25 @@ be45e39a4c81f6
 @
 us-cdbr-east-03.cleardb.com
 /heroku_391875727dff55b?reconnect=true
+
+
+select *from pagamentos
+
+drop table pagamentos
+
+CREATE TABLE IF NOT EXISTS `pagamentos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  
+  `email` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `telefone` int (15) DEFAULT NULL,
+     
+     `empresa` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+      `w3review` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+      `questao` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+
+
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

@@ -1,6 +1,5 @@
 # criar-formulario-com-node
 Hospedado no Heroku
-https://desafiobinahki.herokuapp.com/
 
 
 
@@ -31,26 +30,25 @@ http://localhost:5000/
 
 
 Faltando
-hospedar também no umbler?
-x2 branches
-
+x local nao precisa/ captar demais dados para o banco e aparecer também
+editar nome tabela banco e atributos
+editar imagens icone
+aparecencia para projeto curso
 
 Futuras melhorias
 
 modificar rotas
 melhorar css
 atualizar/editar?
-se outra retirar seletor? abrir textarea
 
 
 Bonus
 
-x local nao precisa/ captar demais dados para o banco e aparecer também
-xcolocar fav icon?
+xtitulo 
+colocar fav icon? nao funcionou
 xresponsivel
 xbootstrap
 xbotoes efeito cursor em cima - hover
-xtitulo 
 xvariaveis retirar valor /adaptar
 
 
@@ -67,8 +65,5 @@ hospedagem umbler c/ mongodb https://www.youtube.com/watch?v=5m6ekKU46-I&list=PL
 
 
 deletei atributos do banco da outra aplicacao
-
 add email na outra aplicacao
-editar nome tabela banco e atributos
-editar imagens icone
-aparecencia para projeto curso
+
