@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desafio Binahki</title>
+
+    <link rel="stylesheet" type="text/css" href="./listar.css" />
+
+</head>
+
+<!--<div id="wave"> </div>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/js/bootstrap.min.js">
+
+-->
+<div id="divonda01">
+    <img id="imgonda01" src="./pag_2_onda.PNG" alt="Minha Figura pag2 onda" />
+
+</div>
+
+
+
+<!-- <u><h2>Dados inseridos:</h2></u>-->
+
+{{#each pagamentos}}
+Nome: {{nome}}<br>
+<!-- Valor: {{valor}}<br> -->
+
+Telefone: {{email}}<br>
+
+Telefone: {{telefone}}<br>
+
+Se outra questão ou mais detalhes: </h2>{{w3review}}<br>s
+
+Cadastrado em: {{#formatDate createdAt}}{{/formatDate}}<br>
+Codigo: {{id}}<br>
+
+<a href="/del-pagamento/{{id}}"><button id="btnapagar">Apagar</button></a>
+
+<hr>
+{{/each}}
+
+
+
+
+<div id="divbaixarprinc">
+    <div>
+        <img id="img01" width="300px" height="300px" src="./livrotirarfundo-removebg-preview.png" alt="Minha Figura" />
+    </div>
+
+    <div id="divbaixar">
+
+        <div>
+
+            <u>
+                <h3>E-book:</h3>
+            </u>
+            <p>Agradecemos por adiquirir nosso E-book. Clique no botão abaixo para iniciar o Download.
+            </p>
+
+            <a href="https://drive.google.com/file/d/1WPxZqdSVOWMAHKgDrn5aboVpVQ0w2VNE/view?usp=sharing"
+                target="_blank"><button id="btnbaixar">BAIXAR</button></a>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="divagrad">
+    <h3>Agradecemos a confiança!</h3>
+    <p>Para outros cálculos Real-Time como este, veja mais informações sobre nossos produtos na página online da <a
+            href="https://binahki.com.br/">Binaki</a>.
+    </p>
+</div>
+
+
+<div id="divonda02">
+    <img id="imgonda02" src="./pag2_onda_baixo.PNG" alt="Minha Figura pag2 onda baixo" />
+
+</div>
+<!--<div id="wave"> </div>-->
