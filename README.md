@@ -1,6 +1,5 @@
-# criar-formulario-com-node
+# criar-formulario-com-node-projeto-curso
 Hospedado no Heroku
-
 
 
 Tecnologias:
@@ -31,16 +30,16 @@ http://localhost:5000/
 
 Faltando
 x local nao precisa/ captar demais dados para o banco e aparecer também
-editar nome tabela banco e atributos
-editar imagens icone
-aparecencia para projeto curso
 
-Futuras melhorias
+Possiveis melhorias
 
 modificar rotas
+editar nome tabela banco e atributos
 melhorar css
 atualizar/editar?
-
+add em outra instancia/  pq banco no mesmo banco/pqn instancia-tabela?
+editar imagens icone
+css aparecencia para projeto curso
 
 Bonus
 
@@ -64,6 +63,6 @@ https://www.youtube.com/watch?v=Omf-6IDNlMg&list=PLmY5AEiqDWwBHJ3i_8MDSszXXRTcFd
 hospedagem umbler c/ mongodb https://www.youtube.com/watch?v=5m6ekKU46-I&list=PLmY5AEiqDWwBHJ3i_8MDSszXXRTcFdkSu&index=16&ab_channel=Celke
 
 
-deletei atributos do banco da outra aplicacao
-add email na outra aplicacao
+
+
 
