@@ -7,6 +7,17 @@ us-cdbr-east-03.cleardb.com
 /heroku_391875727dff55b?reconnect=true
 
 
+mysql://
+be3d27e2f7ae86
+:
+95332f01
+@
+us-cdbr-east-03.cleardb.com
+/heroku_fdcfc604d45ae2f?reconnect=true
+
+
+
+
 select *from pagamentos
 
 drop table pagamentos

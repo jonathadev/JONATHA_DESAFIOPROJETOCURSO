@@ -39,10 +39,11 @@ app.get('/', function(req, res){
 app.post('/add-pagamento', function(req, res){
     Pagamento.create({
         nome: req.body.nome,
-        valor: req.body.valor,
+        email: req.body.email,
+        telefone: req.body.telefone,
         empresa: req.body.empresa,
         questao: req.body.questao,
-        w3review: req.body.w3review
+        areatexto: req.body.areatexto
     }).then(function(){
         res.redirect('/pagamento')
         //res.send("Foi concluído com sucesso o registro.!")

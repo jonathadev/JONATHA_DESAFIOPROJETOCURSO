@@ -11,9 +11,9 @@ const Pagamento = db.sequelize.define('pagamentos', {
         type: db.Sequelize.INTEGER
     },
     
-    w3review: {
+    areatexto: {
         type: db.Sequelize.STRING
-    },
+    }
 })
 
 //Criar a tabela
